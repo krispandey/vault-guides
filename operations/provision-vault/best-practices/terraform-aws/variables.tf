@@ -5,7 +5,7 @@ variable "name"              { default = "vault-best-practices" }
 variable "common_name"       { default = "example.com" }
 variable "organization_name" { default = "Example Inc." }
 variable "provider"          { default = "aws" }
-variable "local_ip_url"      { default = "http://169.254.169.254/latest/meta-data/local-ipv4" }
+variable "local_ip_url"      { default = "http://169.254.169.254/latest/meta-data/local-ipv4" } /*KP url not working*/
 variable "download_certs"    { default = false }
 
 # ---------------------------------------------------------------------------------------------------------------------
