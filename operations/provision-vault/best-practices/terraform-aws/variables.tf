@@ -94,3 +94,6 @@ variable "vault_tags_list" {
   type    = "list"
   default = [ ]
 }
+
+
+variable "vault_test" { default = "" }
